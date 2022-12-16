@@ -18,11 +18,13 @@ function calcularPeso() {
     inNome.focus(); // posiciona(joga o foco) no campo de edição inNome
     return;
   }
+
+  let peso; // declarar a variavel fora do escopo
   //se masculino (significa se masculino == true)
   if (masculino) {
-    var peso = 22 * Math.pow(altura, 2); // Math.pow eleva ao quadrado
+    peso = 22 * Math.pow(altura, 2); // Math.pow eleva ao quadrado
   } else {
-    var peso = 21 * Math.pow(altura, 2);
+    peso = 21 * Math.pow(altura, 2);
   }
 
   //apresenta a resposta(altera o conteúdo da linha outResposta)
