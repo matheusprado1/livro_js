@@ -20,6 +20,16 @@ function listarNumeros() {
   //     }
   //   }
 
+  // forma com while
+  // let i = numero/
+  // //enquanto i maior que 0
+  // while (i>0){
+  //   //acumula em resposta os números em ordem decrescente
+  //   resposta = resposta + i + ", ";
+  // //subtrai 1 no valor da variável i (i=i-1)
+  // i--;
+  // }
+
   // forma mais funcional
   for (let i = numero - 1; i > 0; i--) {
     resposta = resposta + ", " + i;
