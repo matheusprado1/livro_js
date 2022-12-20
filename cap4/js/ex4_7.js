@@ -23,6 +23,6 @@ function preencherEstrelas() {
   }
   outEspacos.textContent = estrelas; //exibe as estrelas
 }
-//cria referncia ao botão e spós associa function ao evento click
+//cria referencia ao botão e spós associa function ao evento click
 let btPreencher = document.getElementById("btPreencher");
 btPreencher.addEventListener("click", preencherEstrelas);
